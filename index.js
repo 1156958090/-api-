@@ -8,9 +8,9 @@ var Multiparty = require('multiparty');
 const AipSpeechClient = require('baidu-aip-sdk').speech;
 const mysql = require('../config.js');
 // 设置APPID/AK/SK
-var APP_ID = "14950461";
-var API_KEY = "2roMufS8nRcKMLTPjDEnMVU4";
-var SECRET_KEY = "NWfuDj4THCKOz40nxIKEGR0au0Zxupac";
+var APP_ID = "*********";//这里填写你自己的appid
+var API_KEY = "*********";//你自己的apikey
+var SECRET_KEY = "*********";//同样你自己的secretkey
 var client = new AipSpeechClient(APP_ID, API_KEY, SECRET_KEY);
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
 var n;
